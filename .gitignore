@@ -1,0 +1,5 @@
+node_modules/
+package*.json
+.husky/
+commitlint.config.js
+.vscode/
