@@ -1,3 +1,5 @@
+![Commits Lint](https://github.com/RodrigoCMoraes/judges_submeter/actions/workflows/commit_lint.yml/badge.svg)
+
 # Judges Submeter
 
 Web Service to submit problems to Online Judges.
