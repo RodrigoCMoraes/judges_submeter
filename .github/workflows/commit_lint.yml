@@ -1,9 +1,13 @@
 name: CI - Commit Lint
 on:
   push:
-    branches: [$default-branch]
+    branches:
+      - main
+      - develop
   pull_request:
-    branches: [$default-branch]
+    branches:
+      - main
+      - develop
 jobs:
   build:
     runs-on: ubuntu-latest
