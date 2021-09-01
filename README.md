@@ -10,8 +10,11 @@ Web Service to submit problems to Online Judges.
   * [URI](https://www.urionlinejudge.com.br/)
 * TODO
   * [Codeforces](http://codeforces.com/) 
-  * [Online Judge (olv UVa)](https://onlinejudge.org/)
+  * [Online Judge (old UVa)](https://onlinejudge.org/)
 
 ## Contributing
 
-This repository uses [conventional commit format](https://www.conventionalcommits.org/en/v1.0.0/), enforced by [commitlint](https://github.com/conventional-changelog/commitlint) at CI pipeline. [Reference](https://commitlint.js.org/#/guides-local-setup) to setup commitlint locally.
+Set up the local environment with the following tools:
+
+  * [Conventional commit format](https://www.conventionalcommits.org/en/v1.0.0/), enforced by [commitlint](https://github.com/conventional-changelog/commitlint) at CI pipeline. [Reference](https://commitlint.js.org/#/guides-local-setup) to setup commitlint locally
+  * [Git-flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow), enforced by maintener(s) and documentation (TODO)
