@@ -22,5 +22,5 @@ build-image:
 run-image:
 	docker run --rm -it -p ${PORT}:${PORT} --env-file=./.env ${APP_NAME}
 
-test:
+tests:
 	go test -v ./test
