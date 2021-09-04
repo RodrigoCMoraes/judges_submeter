@@ -1,0 +1,10 @@
+.github/
+.husky/
+.vscode/
+bin/
+node_modules/
+.gitignore
+commitlint.config.js
+package-lock.json
+package.json
+README.md
