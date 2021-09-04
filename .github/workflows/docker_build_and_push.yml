@@ -6,7 +6,7 @@ on:
       - "main"
       - "develop"
 jobs:
-  run-codelint-on-pr:
+  run-docker-build-push-on-merge:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

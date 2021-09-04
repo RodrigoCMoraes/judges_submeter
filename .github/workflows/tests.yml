@@ -1,4 +1,4 @@
-name: Code Build
+name: Tests
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - "main"
       - "develop"
 jobs:
-  run-codebuild-on-merge:
+  run-tests-on-merge:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -17,4 +17,4 @@ jobs:
       - name: Install dependencies
         run: make get-dependencies
       - name: Validate code
-        run: make build
+        run: make test
