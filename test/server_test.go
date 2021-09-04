@@ -16,7 +16,7 @@ func TestServer(t *testing.T) {
 		submeter.Submit(response, request)
 
 		got := response.Body.String()
-		want := "mocked submission response."
+		want := "mocked submission response"
 
 		if got != want {
 			t.Errorf("got %q, want %q", got, want)
