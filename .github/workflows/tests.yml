@@ -17,4 +17,4 @@ jobs:
       - name: Install dependencies
         run: make get-dependencies
       - name: Validate code
-        run: make test
+        run: make tests
