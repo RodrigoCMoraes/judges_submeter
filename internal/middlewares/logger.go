@@ -27,6 +27,9 @@ func LogHandler(fn http.HandlerFunc) http.HandlerFunc {
 			w.Header()[k] = v
 		}
 		w.WriteHeader(rec.Code)
-		rec.Body.WriteTo(w)
+		_, err = rec.Body.WriteTo(w)
+		if err != nil {
+			logrus.Fatal("[logger middleware] error while trying to write to response body")
+		}
 	}
 }
